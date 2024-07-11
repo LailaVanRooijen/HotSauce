@@ -1,0 +1,11 @@
+#root {
+  /* CSS HEX */
+  --linen: #feefe5ff;
+  --brunswick-green: #32533dff;
+  --fire-brick: #ab3428ff;
+
+  /* CSS HSL */
+  --linen: hsla(24, 93%, 95%, 1);
+  --brunswick-green: hsla(140, 25%, 26%, 1);
+  --fire-brick: hsla(5, 62%, 41%, 1);
+}

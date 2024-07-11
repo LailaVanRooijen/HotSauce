@@ -1,0 +1,10 @@
+- Updaten van cart items doe ik met de id via pathvariable, en dan ipv. een list van items gewoon CartItem als request body.
+Dit omdat je toch maar 1 item per keer toevoegt.
+
+- Request param toevoegen met een cart-action=delete-item of cart-action=1 ofzo, en dan conditional de service controller configureren?
+
+- Wellicht leuk idee om ook aanbiedingen toe te voegen.
+dus een boolean met isOnSale en dan een SalePrice die, en om de sale aan en uit te zetten dan een patchmapping.
+
+
+- later als ik security heb, dan een soort van admin page voor de shop owner waarbij die nieuwe shop items kan toevoegen en verwijderen

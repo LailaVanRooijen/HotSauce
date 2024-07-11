@@ -1,0 +1,19 @@
+ !! Elke x als ik klaar ben met het toevoegen van nieuwe controllers, weer even alle endpoints checken !!
+
+ - ik wil ook checken of een item al bestaat voordat je er 1 toevoegt, zodat je niet dubbele items kan toevoegen.
+
+ - dan wil ik entiteiten maken voor bestellingen,en dus nog even nadenken wat de strategie daarvoor is.
+
+ - Cart niet legen, maar items omzetten naar een purchase en dan een nieuwe cart toewijzen aan de persoon.
+ Echter... wat doe je met al die oudere carts? goed om info op te slaan i guess...
+ En misschien is dat handig om info over recommended op te vragen.
+
+ --------------------
+
+ oke ik heb de controllers voor purchaseItem gemaakt. Endpoints gechecked.
+ Nu alleen nog die voor purchases en dan puntjes op de i.
+
+ tailwind op de front end installeren
+
+
+patch methods aanmaken, en in the item controller alle controleren of het werk ook
