@@ -52,7 +52,4 @@ public class CartController {
       @PathVariable Long cartId, @RequestBody CartItemDTO item) {
     return ResponseEntity.ok(cartService.addItemToCart(cartId, item));
   }
-
-  // TODO ik moet een item kunnnen verwijderen, maar ook de quantity kunnen aanpassen. Wat zijn
-  // goede endpoints hiervoor?
 }
